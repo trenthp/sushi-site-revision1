@@ -2,34 +2,55 @@ body {
 	background: #333;
 }
 
-.top-bar {
-	margin-bottom: 70px;
-	padding-left: 140px;
+[data-magellan-expedition] {
+	background: rgba(0,0,0,.0);
+	position: absolute;
+	margin: 5px 0 0 30px;
 }
 
-.top-bar .name {
-	margin-right: 10px;
-	padding-top: 5px;
-}
-
-.jumpto-subnav {
-  position: absolute;
-}
-
-.name h1 {
+dl.sub-nav {
+	width: 240px;
 	background: rgba(0,0,0,.5);
+	padding: 8px;
+	color: red;
+}
+
+.sub-nav dd a {
+	color: #d8d8d8;
+}
+
+.sub-nav dd a:hover {
+	color: red;
+}
+
+.sub-nav dd.active a {
+	background: rgba(0,0,0,.8);
+	color: #d8d8d8;
+}
+
+.sub-nav dd.active a:hover {
+	background: rgba(0,0,0,.8);
+	color: red;
+}
+
+nav img {
+	float: left;
+}
+
+header {
+	margin-top: 50px;
 }
 
 hr {
-border: solid red;
-border-width: 1px 0 0;
-clear: both;
-margin: 1.25rem 0 1.1875rem;
-height: 0;
+	border: solid red;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.25rem 0 1.1875rem;
+	height: 0;
 }
 
 div.gmap {
-	height: 250px;
+	height: 375px;
 	width: 100%;
 }
 
@@ -74,9 +95,8 @@ div.gmap {
 	height: 100%;
 }
 
-.menuimg .large-3 .pricing-table,
-.menuimg .small-6 .pricing-table{
-	height: 478px;
+ {
+	height: 205px;
 }
 
 .pricing-table .menu7,
