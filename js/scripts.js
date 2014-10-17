@@ -1,7 +1,6 @@
 // Make Foundation Go!
 $(document).foundation();
 
-// Your Awesome Scripts!
 $(document).ready(function(){
 
 	new Maplace({
@@ -20,7 +19,5 @@ $(document).ready(function(){
 	  animate: 1000, // You can define how fast/slow the page will scroll when the jump to menu is clicked. Set to false to turn off animation.
 	  navContainer: false, // If you want to place your jump to menu somewhere else, simply add a selector to your predefined jump to menu container here. The default is false and it will automatically be generated.
 	});
-
-	console.log('Page Loaded. Lets Do this!');
 
 }); 

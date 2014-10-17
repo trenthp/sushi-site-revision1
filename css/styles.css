@@ -63,6 +63,16 @@ div.gmap {
 	font-size: 1em;
 }
 
+.panel h4 {
+	padding: 10px;
+}
+
+.menuimg1 .panel,
+.menuimg2 .panel {
+	background: rgba(255,255,255,.1);
+	border-color: rgba(255,255,255,.1);
+}
+
 .menu7,
 .menu9,
 .menu10,
@@ -72,25 +82,25 @@ div.gmap {
 
 .menu7 h4,
 .pricing-table .menu7 {
-	background: yellow;
+	background: #ffbe1d;
 }
 
 .menu9 h4,
 .pricing-table .menu9 {
-	background: lightblue;
+	background: #0faaef;
 }
 
 .menu10 h4,
 .pricing-table .menu10 {
-	background: red;
+	background: #7d3f67;
 }
 
 .menu12 h4,
 .pricing-table .menu12 {
-	background: green;
+	background: #36c746;
 }
 
-.menuimg img {
+.menuimg1 img {
 	width: 100%;
 	height: 100%;
 }
